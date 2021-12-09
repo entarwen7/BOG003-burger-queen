@@ -38,10 +38,8 @@ export class CardOrderProcessComponent implements OnInit {
   isStatusValidation: boolean = false;
   //arrayStatus: string[] = ['preparacion', 'entregaChef', 'entregaCliente'];
 
-  constructor(private sendOrderFirebase: getDataFirestore, private firebaseService: firebaseFunctionsService, private sendCardService: sendDataService) {
-    this.subcriptionAtiveState = this.sendOrderFirebase.sendOrders$.subscribe(res => {
-      return res;
-    });
+  constructor(private sendOrderFirebase: getDataFirestore, private firebaseService: firebaseFunctionsService) {
+
     //console.log("Trae la respuesta",this.subcriptionAtiveState);
   }
 
@@ -49,6 +47,9 @@ export class CardOrderProcessComponent implements OnInit {
     //this.timer();
     this.switchTimer();
     //this.stateArray();
+    this.subcriptionAtiveState = this.sendOrderFirebase.sendOrders$.subscribe(res => {
+      return res;
+    });
   }
 
   switchTimer() {
