@@ -28,9 +28,13 @@ Por último el mesero recibe el pedido y al entregarlo al comensal, debe oprimir
 A continuación se visualizan las pantallas correspondientes a los prototipos de baja fidelidad, estos fueron hechos con ayuda de la herramienta Balsamiq
 #### Pantalla de bienvenida
 Decidimos crear prototipos sencillos y amigables basandonos en los requerimientos del cliente, esto con el fin de facilitar su uso por parte del usuario final.
+
 ![Pantalla de bienvenida](https://i.imgur.com/MQXN5xG.png)
+
 #### Vista del mesero: menú desayuno `Diseño de las tarjetas y resumen del pedido`
+
 ![Diseño de las tarjetas y resumen del pedido](https://i.imgur.com/QLZJlZ3.png)
+
 #### Vista del mesero: menú almuerzo.
 ![](https://i.imgur.com/ZePmfDX.png)
 
